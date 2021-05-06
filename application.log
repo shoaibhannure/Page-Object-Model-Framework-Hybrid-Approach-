@@ -1,0 +1,47 @@
+2021-05-07 03:59:24,896  INFO [main] TestBase:51 - Log 4J implemented successfully
+2021-05-07 03:59:33,134  INFO [main] TestBase:28 - Log 4J Tested successfully
+2021-05-07 04:01:57,231  INFO [main] TestBase:51 - Chrome Browser Launched Successfully, this is printed by Log 4J
+2021-05-07 04:02:05,348  INFO [main] TestBase:28 - Log 4J Tested successfully for Login Page Test
+2021-05-07 04:02:11,281  INFO [main] TestBase:51 - Chrome Browser Launched Successfully, this is printed by Log 4J
+2021-05-07 04:02:19,348  INFO [main] TestBase:28 - Log 4J Tested successfully for Login Page Test
+2021-05-07 04:02:27,330  INFO [main] TestBase:51 - Chrome Browser Launched Successfully, this is printed by Log 4J
+2021-05-07 04:02:35,040  INFO [main] TestBase:28 - Log 4J Tested successfully for Login Page Test
+2021-05-07 04:03:45,711  INFO [main] TestBase:51 - Chrome Browser Launched Successfully, this is printed by Log 4J
+2021-05-07 04:03:53,346  INFO [main] TestBase:28 - Log 4J Tested successfully for Login Page Test
+2021-05-07 04:03:53,368 DEBUG [main] TestBase:37 - Title verified successfully
+2021-05-07 04:05:42,088  INFO [main] TestBase:51 - Chrome Browser Launched Successfully, this is printed by Log 4J
+2021-05-07 04:06:00,543  INFO [main] TestBase:51 - Chrome Browser Launched Successfully, this is printed by Log 4J
+2021-05-07 04:06:27,700 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2021-05-07 04:06:27,701 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2021-05-07 04:06:33,523  INFO [main] TestBase:51 - Chrome Browser Launched Successfully, this is printed by Log 4J
+2021-05-07 04:06:46,306 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2021-05-07 04:06:46,306 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2021-05-07 04:06:51,907  INFO [main] TestBase:51 - Chrome Browser Launched Successfully, this is printed by Log 4J
+2021-05-07 04:07:11,178  INFO [main] TestBase:51 - Chrome Browser Launched Successfully, this is printed by Log 4J
+2021-05-07 04:07:29,598  INFO [main] TestBase:51 - Chrome Browser Launched Successfully, this is printed by Log 4J
+2021-05-07 04:07:48,178  INFO [main] TestBase:51 - Chrome Browser Launched Successfully, this is printed by Log 4J
+2021-05-07 04:08:00,879 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2021-05-07 04:08:00,879 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2021-05-07 04:08:00,884 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2021-05-07 04:08:00,885 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2021-05-07 04:08:00,888 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2021-05-07 04:08:00,889 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2021-05-07 04:08:06,089  INFO [main] TestBase:51 - Chrome Browser Launched Successfully, this is printed by Log 4J
+2021-05-07 04:08:18,896  INFO [main] TestBase:51 - Chrome Browser Launched Successfully, this is printed by Log 4J
+2021-05-07 04:08:31,852  INFO [main] TestBase:51 - Chrome Browser Launched Successfully, this is printed by Log 4J
+2021-05-07 04:08:39,986  INFO [main] TestBase:28 - Log 4J Tested successfully for Login Page Test
+2021-05-07 04:08:40,016 DEBUG [main] TestBase:37 - Title verified successfully
+2021-05-07 04:08:45,854  INFO [main] TestBase:51 - Chrome Browser Launched Successfully, this is printed by Log 4J
+2021-05-07 04:08:53,739  INFO [main] TestBase:28 - Log 4J Tested successfully for Login Page Test
+2021-05-07 04:08:56,713 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2021-05-07 04:08:56,713 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2021-05-07 04:08:56,717 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2021-05-07 04:08:56,717 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2021-05-07 04:08:56,717 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2021-05-07 04:08:56,718 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2021-05-07 04:08:56,718 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2021-05-07 04:08:56,718 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2021-05-07 04:08:56,719 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2021-05-07 04:08:56,719 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2021-05-07 04:09:01,873  INFO [main] TestBase:51 - Chrome Browser Launched Successfully, this is printed by Log 4J
+2021-05-07 04:09:09,751  INFO [main] TestBase:28 - Log 4J Tested successfully for Login Page Test
