@@ -31,13 +31,17 @@ public class LandingPageTest extends TestBase {
 	public void landingPageTitleTest() throws InterruptedException {
 		String title = landingPage.validateLandingPageTitle();
 		Assert.assertEquals(title, "#1 Free CRM customer relationship management software cloud");
+	
 	}
+	
 
 	@Test
 	public void CRMlogoTest() {
 		boolean flag = landingPage.verifyCrmLogo();
 		Assert.assertTrue(flag); // If flag is true Test Case Pass else Fail
 	}
+	
+	
 
 	@AfterMethod
 	public void tearDown() {

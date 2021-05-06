@@ -1,8 +1,5 @@
 package com.crm.qa.testcases;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -10,6 +7,7 @@ import org.testng.annotations.Test;
 
 import com.crm.qa.base.TestBase;
 import com.crm.qa.pages.ContactsPage;
+import com.crm.qa.pages.CreateNewContactPage;
 import com.crm.qa.pages.HomePage;
 import com.crm.qa.pages.LandingPage;
 import com.crm.qa.pages.LoginPage;
@@ -22,6 +20,7 @@ public class ConatctsPageTest extends TestBase {
 	HomePage homePage;
 	ContactsPage contactsPage;
 	TestUtil testUtil;
+	CreateNewContactPage createNewContactPage;
 
 	public ConatctsPageTest() {
 		super();
@@ -38,20 +37,19 @@ public class ConatctsPageTest extends TestBase {
 
 	}
 
-	@Test
+	@Test(priority = 1)
 	public void verifyContactsPageLabel() {
 		Assert.assertTrue(contactsPage.verifyContactsLabel(), "Contacts Label is missing");
 	}
 
-	@Test
+	@Test(priority = 2)
 	public void selectContactsTest() {
 		contactsPage.selectContactByName();
-
 	}
 
 	@AfterMethod
 	public void tearDown() {
-		// driver.quit();
+		driver.quit();
 	}
 
 }

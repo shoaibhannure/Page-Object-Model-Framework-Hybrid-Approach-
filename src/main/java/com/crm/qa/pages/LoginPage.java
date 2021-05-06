@@ -56,4 +56,5 @@ public class LoginPage extends TestBase {
 		loginPageButton.click();
 		return new HomePage();
 	}
+	
 }

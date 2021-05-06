@@ -23,6 +23,8 @@ public class LandingPage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 	
+	
+	
 	public boolean verifyCrmLogo(){
 		return FreeCrmLogo.isDisplayed();
 		}
@@ -32,8 +34,15 @@ public class LandingPage extends TestBase {
 		return new LoginPage();
 	}
 	
+	public LoginPage signInbuttonClick(){
+		landingLoginButton.click();
+		return new LoginPage();
+	}
+	
 	public String validateLandingPageTitle(){
 		return driver.getTitle();
 	}
+	
+	
 }
 
