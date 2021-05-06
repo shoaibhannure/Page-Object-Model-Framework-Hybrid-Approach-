@@ -3,15 +3,15 @@
 <suite name="Free CRM Application Automation Test Suite">
 
 <listeners>
-		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+		<listener class-name="com.crm.qa.ExtentReportListener.ExtentReporterNG" />
 	</listeners>
 
 	<test name="Free CRM Application Test Cases">
 		<classes>
-			<class name="com.crm.qa.testcases.ConatctsPageTest" /></class>
-			<class name="com.crm.qa.testcases.HomePageTest" /></class>
-			<class name="com.crm.qa.testcases.LandingPageTest" /></class>
-			<class name="com.crm.qa.testcases.LoginPageTest" /></class>
+			<class name="com.crm.qa.testcases.ConatctsPageTest"></class>
+			<class name="com.crm.qa.testcases.HomePageTest"></class>
+			<class name="com.crm.qa.testcases.LandingPageTest"></class>
+			<class name="com.crm.qa.testcases.LoginPageTest"></class>
 		</classes>
-	</test> <!-- Test -->
-</suite> <!-- Suite -->
+	</test> 
+</suite>	
