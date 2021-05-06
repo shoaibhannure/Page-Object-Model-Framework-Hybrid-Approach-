@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -23,8 +24,10 @@ public class TestBase {
 	public static Properties prop;
 	public  static EventFiringWebDriver e_driver;
 	public static WebEventListener eventListener;
+	public static Logger log;
 
 	public TestBase(){
+		
 		try{
 		prop = new Properties();
 		FileInputStream fis = new FileInputStream(
@@ -39,11 +42,13 @@ public class TestBase {
 	}
 
 	public static void initialization() {
+		log = Logger.getLogger(TestBase.class);
 		String BrowserName = prop.getProperty("browser");
 		if (BrowserName.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 			System.out.println("Chrome Browser Launched Successfully");
+			log.info("Chrome Browser Launched Successfully, this is printed by Log 4J");
 			
 		} else if (BrowserName.equals("firefox")) {
 			WebDriverManager.firefoxdriver().setup();

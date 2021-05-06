@@ -25,6 +25,7 @@ public class LoginPageTest extends TestBase {
 		initialization();
 		landingPage = new LandingPage();
 		loginPage = landingPage.ClickSignInButton();
+		log.info("Log 4J Tested successfully for Login Page Test");
 		
 	}
 
@@ -33,6 +34,7 @@ public class LoginPageTest extends TestBase {
 	
 		String loginPageTitle = loginPage.validateLoginPageTitle();
 		Assert.assertEquals(loginPageTitle, "Cogmento CRM", "Login Page Title Verified Successfully");
+		log.debug("Title verified successfully");
 	}
 
 	@Test(priority = 2)

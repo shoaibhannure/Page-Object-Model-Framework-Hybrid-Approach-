@@ -16,16 +16,15 @@ import org.openqa.selenium.TakesScreenshot;
 
 import com.crm.qa.base.TestBase;
 
-public class TestUtil extends TestBase{
+public class TestUtil extends TestBase {
 
-	public static long PAGE_LOAD_TIMEOUT=20;
-	
-	public static long IMPLICIT_WAIT=15;
-	
-	
+	public static long PAGE_LOAD_TIMEOUT = 20;
+
+	public static long IMPLICIT_WAIT = 15;
+
 	static Workbook book;
 	static Sheet sheet;
-	//static JavascriptExecutor js;
+	// static JavascriptExecutor js;
 
 	public static String TESTDATA_SHEET_PATH = "D:/javabykiran/FreeCRMTest/src/main/java/com/crm/qa/testdata/FreeCRMTestData.xlsx";
 
@@ -55,6 +54,7 @@ public class TestUtil extends TestBase{
 		}
 		return data;
 	}
+
 	public static void takeScreenshotAtEndOfTest() throws IOException {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		String currentDir = System.getProperty("user.dir");
